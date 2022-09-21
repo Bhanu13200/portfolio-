@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1f0d324550.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Pictures/portfolio/2b.png" class="logo">
+                <ul id="sidemenu">
+                       <li><a href="#header">Home</a></li>
+                       <li><a href="#about">About</a></li>  
+                       <li><a href="#services">Services</a></li> 
+                       <li><a href="#portfolio">Portfolio</a></li> 
+                       <li><a href="#contact">Contact</a></li>
+                       <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Student</p>
+                <h1>Hi, I'm <span>Bhanu</span><br>Sandeep From <span>India</span></h1>
+            </div>
+        </div>
+    </div>
+    <!-- -----------about----------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Pictures/portfolio/sandeepo 1.png" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title" >About Me</h1>
+                    <p>Hey, this is Bhanu Sandeep, so I have to say something about myself.
+                         Sometimes it is hard to introduce yourself because you know yourself 
+                         so well that you do not know where to start with. Let me give a try 
+                         to see what kind of image you have about me through my self-description
+                         . I hope that my impression about myself and your impression about me
+                         are not so different. Here it goes. <br>I am a person who is positive
+                         about every aspect of life. There are many things I like to do, to
+                         see, and to experience. I like to read, I like to write; I like to
+                         think, I like to dream; I like to talk, I like to listen.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" i="skills">
+                        <ul>
+                            <li><span>Python</span><br>Problem Solving</li>
+                            <li><span>Web design</span><br>Designing a web applications</li>
+                            <li><span>web development</span><br>Designing a website</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" i="experience">
+                        <ul>
+                            <li><span>2022-Aug</span><br>Created A simple Figma design</li>
+                            <li><span>2022-Sep</span><br>Desiged A Resume with Figma</li>
+                            <li><span>2022-Sep</span><br>Designed a website</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" i="education">
+                        <ul>
+                            <li><span>2013-2017</span><br>Sri Chaitanya Techno School</li>
+                            <li><span>2017-2019</span><br>Sri Chaitanya Jr College</li>
+                            <li><span>2019-current</span><br>Kakinada Istitute Of Engeerning And Technology</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------sevices----------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>web Design</h2>
+                    <p>Hey, this is Bhanu Sandeep, so I have to say something about myself.
+                        Sometimes it is hard to introduce yourself because you know yourself 
+                        so well that you do not know where to start with.</p>
+                        <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Ux Design</h2>
+                    <p>Hey, this is Bhanu Sandeep, so I have to say something about myself.
+                        Sometimes it is hard to introduce yourself because you know yourself 
+                        so well that you do not know where to start with.</p>
+                        <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i> 
+                    <h2>App Design</h2>
+                    <p>Hey, this is Bhanu Sandeep, so I have to say something about myself.
+                        Sometimes it is hard to introduce yourself because you know yourself 
+                        so well that you do not know where to start with.</p>
+                        <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------My Portfolio----------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="pictures/portfolio/x8 2 1.png" >
+                    <div class="layer">
+                        <h3>My Logo</h3>
+                        <p>The logo which was created by for our <br>
+                        gaming clan.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="pictures/portfolio/work-1.png" >
+                    <div class="layer">
+                        <h3>Social media app</h3>
+                        <p>The app connects you the talented people around the world.
+                        download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="pictures/portfolio/work-2.png" >
+                    <div class="layer">
+                        <h3>Website</h3>
+                        <p>The site connects you the talented people around the world.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- -------------contact----------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>bhanusandeep12@outlook.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 6301772107</p>
+                    <div class="social-icons">
+                        <a href="https://instagram.com/_bhanu__san_deep_12?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100047091635423"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/vanthubhanusandeep/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://mobile.twitter.com/AyithaNaveen"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <a href="Pictures/portfolio/resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> Bhanu. Made with <i class="fa-solid fa-heart"></i> by easy Tutorials </p>
+        </div>
+    </div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+    
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classlist.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classlist.remove("active-tab");
+            }
+            event.currentTarget.classlist.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    
+   </script>
+   
+        <script>
+            var sidemeu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemeu.style.right = "0";
+            }
+            function closemenu(){
+                sidemeu.style.right = "-200px";
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxEJN2Lt4_IbwLwArREoQ04NPIrPGtqnfHFNhDtUdEznLvPX-yj2ft_qAFcE5sdCB4/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg =document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },5000)
+                    form.reset()
+                } )
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+
+</body>
+</html>
